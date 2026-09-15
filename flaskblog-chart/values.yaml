@@ -1,0 +1,13 @@
+replicaCount: 2
+
+image:
+  repository: flaskblog
+  tag: latest
+  pullPolicy: Never
+
+service:
+  type: ClusterIP
+  port: 1283
+  targetPort: 1283
+
+secretName: flaskblog-env
