@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: flaskblog
+  IMAGE_NAME: arjundevops66/flaskblog
 
 jobs:
   build-and-push:
